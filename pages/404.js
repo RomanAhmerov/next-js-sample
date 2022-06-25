@@ -1,7 +1,12 @@
+import Heading from "./components/Heading";
+
 const Error = () => {
   return (
-    <h1>Your page is not found | error 404</h1>
-  )
-}
+    <>
+      <Heading text="Error 404" />
+      <Heading tag="h2" text="Your page is not found | error 404" />
+    </>
+  );
+};
 
-export default Error
+export default Error;

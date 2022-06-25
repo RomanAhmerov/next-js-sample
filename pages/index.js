@@ -1,6 +1,8 @@
+import Heading from "./components/Heading";
+
 const Home = () => {
   return (
-    <h1>Hello world</h1>
+    <Heading text="Home page" />
   )
 }
 
